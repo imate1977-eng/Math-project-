@@ -1,30 +1,45 @@
-# Math Calculator Project
+# Math Toolkit Project
 
-This is a simple mathematics project created by a Class 8 student.
+This project is a simple mathematics toolkit written in Python.
 
-The program can calculate:
-- HCF (Highest Common Factor)
-- LCM (Least Common Multiple)
+It was created as a school project to demonstrate basic mathematical computations using programming.
+
+## Features
+
+The program can perform three operations:
+
+1. HCF and LCM Calculator
+2. Prime Number Checker
+3. Quadratic Equation Solver
 
 ## How the Program Works
 
-1. The user enters two numbers.
-2. The program uses Python's math library.
-3. It calculates:
-   - HCF using gcd function
-   - LCM using a formula
+When the program starts, it shows a menu.
 
-LCM Formula:
-LCM = (a × b) / HCF
+1. HCF and LCM
+2. Prime Number Check
+3. Quadratic Equation Solver
+
+The user selects an option and enters the required numbers.
+
+The program then calculates and displays the result.
 
 ## Example
 
-Input:
-12 and 18
+Choice: 1  
+Input numbers: 12 and 18  
 
-Output:
-HCF = 6
+Output
+
+HCF = 6  
 LCM = 36
 
-## Language Used
-Python
+## Concepts Used
+
+- Python programming
+- Mathematical algorithms
+- Loops and conditional statements
+
+## File in this Project
+
+math_calculator.py – main Python program
